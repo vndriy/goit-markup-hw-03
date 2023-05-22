@@ -159,15 +159,12 @@ ol {
 .page-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .menu {
   display: flex;
   gap: 40px;
-}
-
-.menu-item {
-  padding: 24px 0;
 }
 
 .header-nav {
