@@ -51,6 +51,18 @@ ol {
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ==================================== /RESET ==================================== */
 
 .subtitle {
@@ -145,16 +157,17 @@ ol {
 
 .page-nav {
   display: flex;
+  align-items: center;
 }
 
 .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-nav {
   display: flex;
-  padding: 24px 0 24px 0;
   align-items: center;
 }
 
@@ -227,7 +240,8 @@ ol {
 }
 
 .company-products {
-  margin-bottom: 120px;
+  margin-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .main-about {
