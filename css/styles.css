@@ -143,6 +143,7 @@ ol {
 
 .menu-link {
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
