@@ -98,6 +98,7 @@ ol {
 }
 
 .logo-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -106,7 +107,6 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -232,7 +232,6 @@ ol {
 .about-company {
   display: flex;
   gap: 24px;
-  padding-bottom: 72px;
 }
 
 .about-company-visual {
@@ -241,7 +240,6 @@ ol {
 }
 
 .company-products {
-  margin-bottom: 72px;
   padding-bottom: 120px;
 }
 
